@@ -1,0 +1,78 @@
+html {
+  font-size:1px;
+}
+body{
+	font-size: 15em;
+	color: blue;
+	font-family: 'Frank Ruhl Libre', sans-serif;
+}
+.text {
+  color: #4675BF;
+  text-align: right;
+}
+
+h1 {
+  font-weight: bold;
+}
+h1 span {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.paam {padding: 20%;}
+.blue {padding: 20%;}
+.chocolate
+.shoes {padding: 20%;}
+.zuz
+.ice
+.garden
+.ink
+.top {}
+
+.blob {
+  height:100%;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.left {
+  width: 40%
+}
+
+.right {
+  text-align: right;
+  margin: 20px
+  width: 50%;
+
+}
+
+img.ri
+{
+  opacity: 0.8;
+	position: absolute;
+	max-width: 80%;
+	top: 10%;
+	left: 10%;
+}
+
+img.ri:empty
+{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 90%; }
+}
